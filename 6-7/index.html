@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="descriptiom"
+      content="This page consits of information about Sigma Web Dev course video no.7 which is about forms and input tags"
+    />
+    <!--<meta name="Keywords" content="meta keywords, html tags, meta tags, Google ranking factors">      this is not used anymore since it was abused-->
+    <title>Forms and input tags</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>User registration form</h1>
+
+    <form action="post">
+      <div>
+        <label for="username">Enter your username</label>
+        <input
+          type="text"
+          id="username"
+          name="username"
+          placeholder="Enter your username"
+        />
+      </div>
+
+      <div>
+        <label for="job">Enter your job</label>
+        <input type="text" id="job" name="job" placeholder="Enter your job" />
+      </div>
+
+      <div>
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender" value="male" />
+
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="gender" value="female" />
+      </div>
+
+      <div>
+        <input
+          type="checkbox"
+          id="ready to learn?"
+          name="learner"
+          value="yes"
+        />
+        <label for="ready to learn?">Ready to learn?</label>
+      </div>
+      <div>
+        <label for="comment">Enter your comment</label>
+        <textarea
+          name="comment"
+          rows="4"
+          cols="50"
+          id=""
+          placeholder="Enter your comment here..."
+        ></textarea>
+        <!--Don't use br tag
+       -->
+      </div>
+
+      <div>
+        <label for="fruits">fruits</label>
+        <select name="fruits" id="fruits">
+          <option value="apple">Apple</option>
+          <option value="orange">orange</option>
+          <option value="banana">banana</option>
+          <option value="papaya">papaya</option>
+        </select>
+      </div>
+    </form>
+  </body>
+</html>
